@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: grey;
+    background: rgb(202, 202, 201);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -70,6 +70,12 @@ hr {
 }
 
 .box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+.box2 {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
@@ -172,12 +178,10 @@ ul.icons li a {
     }
 
     .nav>li>a {
-        padding: 35px;
+        padding: 20px;
     }
 
-    .navbar-nav>li>a {
-        line-height: normal;
-    }
+
 
     .navbar-nav {
         display: table;
